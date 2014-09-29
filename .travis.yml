@@ -69,7 +69,13 @@ install:
     fi
 script:
   - bin/test_travis.sh
-notifications:
-  email: false
+
   
 archive: true
+notifications:
+     email:
+         recipients:
+             - vidya@shippable.com
+             - buildsampletest@gmail.com
+         on_success: always
+         on_failure: always
