@@ -69,7 +69,7 @@ install:
     fi
 script:
   - bin/test_travis.sh
-
+build_image: shippable/minv2
   
 archive: true
 notifications:
